@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  font-family: source code pro;
+}
+body {
+  background-color: rgb(248, 240, 229);
+}
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgba(111, 72, 23, 0.578);
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(242, 223, 201);
+  border-radius: 10px;
+}

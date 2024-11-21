@@ -1,0 +1,81 @@
+.header {
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ background-color: rgb(242, 223, 201);
+ height: 70px;
+ z-index: 100;
+ border-bottom-right-radius: 10px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  flex-shrink: 0;
+}
+.burger-container {
+  padding: 1.1rem;
+}
+.burger-icon {
+  height: 30px;
+  cursor: pointer;
+}
+.home-container {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+.logo-img-header {
+  cursor: pointer;
+  object-fit: cover;
+  height: 75px;
+  width: 200px;
+}
+.sign-in-container {
+  margin-right: 1rem;
+}
+.sign-in-button {
+  background-color: rgba(111, 72, 23, 0.578);
+}
+.sign-in-button:hover {
+  color: rgba(111, 72, 23, 0.578);
+  background-color: white;
+}
+.sign-in-button:active {
+  background-color: rgba(111, 72, 23, 0.578);
+  color: white;
+}
+.sign-up-button {
+  background-color: rgb(255, 140, 0);
+}
+.sign-up-button:hover {
+  background-color: white;
+  color: rgb(255, 140, 0);
+}
+.sign-up-button:active {
+  background-color: rgb(255, 140, 0);
+  color: white;
+}
+.sign-up-button, .sign-in-button {
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 5%;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}

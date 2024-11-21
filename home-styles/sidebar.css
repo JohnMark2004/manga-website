@@ -1,0 +1,104 @@
+.sidebar {
+  background-color: rgb(242, 223, 201);
+  position: fixed;
+  top: 4.3rem;
+  left: 0; 
+  right: 0;
+  bottom: 0;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: auto;
+  z-index: 99;
+}
+.home-icon {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  transition: background-color 0.2s;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.home-icon:hover {
+  background-color: rgba(111, 72, 23, 0.578);
+  color: white;
+  border-radius: 10px;
+}
+.home-icon:active {
+  background-color: rgb(242, 223, 201);
+  color: black;
+}
+.home-icon-img {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+.genres {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+.genre {
+  margin-bottom: 10px;
+  background-color: rgb(255, 140, 0);
+  padding: 0.3rem;
+  border-radius: 10px;
+  margin-right: 0.5rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+.genre:hover {
+  transform: scale(1.1);
+}
+.horizontal-line {
+  width: 185px;
+  height: 1px;
+  background-color: silver;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.social-tooltip-container {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.social-tooltip-container .tooltip {
+  position: absolute;
+  font-size: 0.75rem;
+  background-color: rgba(111, 72, 23, 0.578);
+  color: white;
+  padding: 0.25rem;
+  top: -30px;
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.social-tooltip-container:hover .tooltip {
+  opacity: 1;
+}
+.social-img {
+  height: 50px;
+}
+.copyright {
+  font-size: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}

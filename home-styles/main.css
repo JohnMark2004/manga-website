@@ -1,0 +1,131 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 1rem 3rem 14rem;
+  position: relative;
+}
+.logo-main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.logo-img {
+  cursor: pointer;
+  object-fit: cover;
+  width: 250px;
+}
+.search-and-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  height: 3.5rem;
+  padding-left: 1.5rem;
+  width: 500px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+}
+.search-button {
+  margin-left: -3rem;
+  padding: 0.2rem 1.25rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: rgb(255, 140, 0);
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+.search-button:active {
+  background-color: rgba(111, 72, 23, 0.578);
+}
+
+.search-img {
+  height: 25px;
+  padding: 0.75rem;
+  object-fit: cover;
+}
+.mangas {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 50px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgba(111, 72, 23, 0.578);
+  position: relative;
+}
+.new-text {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.new-manga {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.manga-img {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5%;
+}
+.info {
+  margin-bottom: auto;
+  width: 70%;
+}
+.title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.chapter {
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+}
+.genres-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.genre-main {
+  margin-bottom: 10px;
+  background-color: rgb(255, 140, 0);
+  padding: 0.3rem;
+  border-radius: 10px;
+  margin-right: 0.5rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+.genre-main:hover {
+  transform: scale(1.1);
+}
+.description{
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+  word-wrap: break-word;
+}
+.left-arrow-container{
+  position: absolute;
+  bottom: 100px;
+  left: -40px;
+}
+.right-arrow-container{
+  position: absolute;
+  bottom: 100px;
+  right: -40px;
+}
+.right-arrow-container:hover,
+ .left-arrow-container:hover{
+  opacity: 0.8;
+ }
+ .right-arrow-container:active,
+ .left-arrow-container:active{
+  opacity: 0.5;
+ }
+.arrow {
+  height: 70px;
+  cursor: pointer;
+}
